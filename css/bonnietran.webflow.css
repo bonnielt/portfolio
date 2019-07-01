@@ -1,3 +1,4 @@
+.w-embed-youtubevideo {
   width: 100%;
   position: relative;
   padding-bottom: 0px;
@@ -634,6 +635,7 @@ body {
 }
 
 .project-content {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -779,7 +781,7 @@ body {
 }
 
 .img-crop.img-wiux {
-  background-image: url('../images/cover_1-p-500.png');
+  background-image: url('../images/cover_1.png');
   background-position: 50% 50%;
 }
 
