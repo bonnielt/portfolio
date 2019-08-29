@@ -37,7 +37,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: #d6d5c4;
-  cursor: pointer;
+  /* cursor: pointer;*/
 }
 
 .section {
