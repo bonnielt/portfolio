@@ -180,6 +180,7 @@ a {
   bottom: 0%;
   width: 75vw;
   height: auto;
+  background-color: transparent;
 }
 
 .page-content-wrapper {
@@ -265,6 +266,11 @@ a {
 
 .image.paint {
   margin-bottom: -300px;
+}
+
+.image.home {
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .project-detail-wrapper {
@@ -658,10 +664,13 @@ a {
 }
 
 .home-link-wrapper {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.bulleted-list {
+  padding-left: 16px;
+  list-style-type: square;
 }
 
 @media screen and (max-width: 991px) {
