@@ -688,6 +688,27 @@ a {
   text-align: right;
 }
 
+.ghd-vid-1 {
+  width: 100%;
+  height: 620px;
+}
+
+.ghd-vid-2 {
+  height: 800px;
+}
+
+.background-video-2 {
+  height: 400px;
+}
+
+.background-video-3 {
+  min-height: 700px;
+}
+
+.background-video-4 {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .detail.caption {
     margin-left: 20px;
