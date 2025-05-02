@@ -556,6 +556,7 @@ a {
 
 .hr {
   border-top: 1px dotted #000;
+  width: 100%;
   height: 0;
   margin-top: 40px;
 }
@@ -621,6 +622,7 @@ a {
 .work-grid.filter {
   grid-column-gap: 50px;
   grid-row-gap: 40px;
+  width: 100%;
   margin-top: 0;
   padding-bottom: 0;
 }
@@ -769,6 +771,7 @@ a {
 .featured-project-link {
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
   margin-top: 40px;
   transition: opacity .2s;
   display: flex;
@@ -780,6 +783,10 @@ a {
 
 .featured-project-link.hide {
   display: none;
+}
+
+.featured-project-link.static {
+  width: 100%;
 }
 
 .featured-project-link.static:hover {
@@ -862,6 +869,10 @@ a {
   .simple-hero {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .featured-project-link, .featured-project-link.static {
+    flex-flow: wrap;
   }
 }
 
