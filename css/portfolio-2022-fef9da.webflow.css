@@ -91,7 +91,7 @@ ul {
 }
 
 .body-regular {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 150%;
 }
 
@@ -321,6 +321,10 @@ ul {
   z-index: -1;
   position: relative;
   top: -300px;
+}
+
+.image-block-wrapper.test-wrapper {
+  position: relative;
 }
 
 .page-end {
@@ -881,9 +885,23 @@ ul {
   padding-left: 0;
 }
 
+.vid-wrapper {
+  position: relative;
+}
+
+.clearbridge-video {
+  width: 100%;
+  min-height: 700px;
+}
+
 @media screen and (min-width: 1920px) {
   body {
     overflow: visible;
+  }
+
+  .div-child {
+    position: absolute;
+    inset: 0%;
   }
 }
 
